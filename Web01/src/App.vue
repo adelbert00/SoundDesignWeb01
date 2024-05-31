@@ -146,13 +146,13 @@
     <footer>
       <div class="social-links">
         <a href="https://www.facebook.com/">
-          <img src="E:\WebPortfolio\Web01\Web01\src\assets\fb.png" class="icons" alt="Facebook" />
+          <img src="C:\Users\tazor\Documents\GitHub\SoundDesignWeb01\Web01\src\assets\fb.png" class="icons" alt="Facebook" />
         </a>
         <a href="https://www.twitter.com/">
-          <img src="E:\WebPortfolio\Web01\Web01\src\assets\twitter.png" class="icons" alt="Twitter" />
+          <img src="C:\Users\tazor\Documents\GitHub\SoundDesignWeb01\Web01\src\assets\twitter.png" class="icons" alt="Twitter" />
         </a>
         <a href="https://www.instagram.com/">
-          <img src="E:\WebPortfolio\Web01\Web01\src\assets\ig.png" class="icons" alt="Instagram" />
+          <img src="C:\Users\tazor\Documents\GitHub\SoundDesignWeb01\Web01\src\assets\ig.png" class="icons" alt="Instagram" />
         </a>
       </div>
       <p>&copy; 2024 Reserved to Wojciech Faber</p>
