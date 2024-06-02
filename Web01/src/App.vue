@@ -37,8 +37,8 @@
     <!-- Sample Packs Section -->
     <section>
       <h1 class="H1-Head">SAMPLE PACKS</h1>
-      <div id="Reelsframes">
-        <div class="Reeldiv" v-for="(pack, index) in samplePacks" :key="index">
+      <div class="Samples">
+        <div class="Samplesdiv" v-for="(pack, index) in samplePacks" :key="index">
           <img :src="pack.imageSrc" class="samplepackimg" :alt="pack.name">
           <p class="Describe1">{{ pack.name }}</p>
           <p class="Describe2">Contains</p>

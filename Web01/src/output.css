@@ -706,9 +706,19 @@ section {
 }
 /*  END SECTION */
 
+.Samples{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  margin-bottom: 50px;
+}
+.Samplesdiv {
+  margin-bottom: 50px;
+}
+
 
 /*  REELS */
-.Reelsframes {
+#Reelsframes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
