@@ -1,7 +1,7 @@
 import { ref } from 'vue';
 import protImage from './assets/prot.jpg';
 
-export default  {
+export default {
   
   setup() {
     const imageSrc = protImage;
@@ -167,9 +167,6 @@ export default  {
       email: '',
       message: ''
     });
-    
-
-    
 
     function scrollToSection(sectionId) {
       const section = document.getElementById(sectionId);

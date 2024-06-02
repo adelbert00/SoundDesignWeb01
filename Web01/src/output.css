@@ -846,29 +846,6 @@ footer a {
 /* END OF SCROLL BAR */
 
 
-.audio-player {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.controls {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-button {
-  margin: 10px 0;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
-input[type="range"] {
-  width: 100%;
-  margin: 10px 0;
-}
 
 
 
