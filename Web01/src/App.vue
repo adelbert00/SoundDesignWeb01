@@ -15,7 +15,7 @@
     <section>
       <header class="HeaderClass">
         <div id="Me">
-          <h1 class="H1Name">Wojciech Faber</h1>
+          <h1 class="H1-Head">Wojciech Faber</h1>
           <p class="PDescribe">Sound designer & Mix/master engineer</p>
         </div>
         <img :src="imageSrc" alt="My Photo">
@@ -53,8 +53,8 @@
     <!-- Reels Section -->
     <section id="reels">
       <h1 class="H1-Head">SOUND DESIGN DEMOS WITH VIDEO</h1>
-      <div class="reelsframes">
-        <div class="reeldiv" v-for="reel in reels" :key="reel.title">
+      <div class="Reelsframes">
+        <div class="Reeldiv" v-for="reel in reels" :key="reel.title">
           <iframe :width="reel.width" :height="reel.height" :src="reel.src" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <p class="Describe1">{{ reel.title }}</p>
           <p class="Describe2">{{ reel.subtitle }}</p>
@@ -137,7 +137,7 @@
     <!-- End of Percs -->
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="Contact">
       <h1 class="H1-Head">CONTACT</h1>
       <form @submit.prevent="handleSubmit">
         <label for="name" class="labels">Imię:</label>

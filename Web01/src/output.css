@@ -612,12 +612,12 @@ header img {
   width: 40%;
   margin-bottom: 20px;
 }
-.H1Name {
+.H1-Head {
   font-size: 48px;
   color: wheat;
   font-style: oblique;
   font-family: "Snell Roundhand, cursive";  
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 .PDescribe{
   padding-bottom: 10px;
@@ -625,46 +625,26 @@ header img {
   color: aqua;
   font-family: "Lucida Console";
 }
-.headerh1 {
-  font-size: 48px;
-  padding-bottom: 0px;
-  color: wheat;
-  font-style: oblique;
-  font-family: "Snell Roundhand, cursive";
-  font-weight: 100;
-}
-.headerh2{
-  font-size: 60px;
-  padding-bottom: 60px;
-  color: wheat;
-  font-style: oblique;
-  font-family: "Snell Roundhand, cursive";
-  font-weight: 100;
-}
-.headersample{
-  font-size: 60px;
-  padding-bottom: 60px;
-  color: wheat;
-  font-style: oblique;
-  font-family: "Snell Roundhand, cursive";
-  font-weight: 100;
-}
-.buttonsamplepack{
+
+
+
+/* Button Sample Pack Styles */
+.Button-SP{
   display: inline-block;
-padding: 20px 70px;
-background-color: wheat;
-color: white;
-text-align: center;
-text-decoration: none;
-font-size: 16px;
-border-radius: 12px;
-transition: background-color 0.3s;
-
-
-}
-.buttonsamplepack:hover {
-  background-color: #3d3935;
-}
+  padding: 20px 70px;
+  background-color: wheat;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+  
+  }
+  .Button-SP:hover {
+    background-color: #3d3935;
+  }
+  
 
 /*  END HEADER */
 
@@ -679,7 +659,7 @@ transition: background-color 0.3s;
 
 #About-Me{
 
-   text-align: center;
+  text-align: center;
   padding: 20px;
   padding-top: 80px;
   padding-bottom:360px;
@@ -691,33 +671,24 @@ transition: background-color 0.3s;
   color: wheat;
 }
 
-
 /*  NAV */
-.navbar {
+.Navbar {
   position:absolute;
   width: 100%;
-  background-color: transparent;
   display: flex;
-  flex-direction: row; 
   justify-content: space-around;
   padding: 20px;
-  font-size: 24px;
-  border-radius: 12px;
-  
 }
-.navbutton {
+.Navbutton {
   color: aqua;
   background-color: transparent;
   border: none;
   cursor: pointer;
   font-size: 15px;
+  transition: background-color 0.3s;
+  
 }
 /*  END NAV */
-
-
-
-
-
 
 .samplepackimg {
   width: 400px; 
@@ -738,113 +709,93 @@ section {
 
 
 /*  REELS */
-.reelsframes {
+.Reelsframes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
-.reeldiv {
-  
- 
-  margin-bottom: 100px;
+.Reeldiv {
+  margin-bottom: 50px;
 }
-.opisreel {
-  color: white;
-  font-size: 18px;
-  margin-top: 10px;
-}
+
 /*  END REELS */
 
 
 /* Yt Clips */
-.opismuza{
+.Describe1{
   color: white;
   font-size: 21px;
   margin-top: 10px;
   font-family: "Lucida Console";
 }
-.opismuza2{
+.Describe2{
   color: aqua;
   font-size: 18px;
   margin-top: 10px;
   font-family: "Lucida Console";
 }
-.opismuza3{
+.Describe3{
   color: white;
   font-size: 21px;
   margin-top: 10px;
   font-family: "Lucida Console";
 }
-.opismuza4{
+.Describe4{
   color: aqua;
   font-size: 18px;
   margin-top: 10px;
   font-family: "Lucida Console";
 }
 
-.musicframes {
+.Music-Frames{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-  margin-bottom: 20px;
+
 }
-.musicdiv {
-  margin-bottom: 100px;
+.Music-Div {
+  margin-bottom: 50px;
 }
 /*  END Yt Clips */
 
 /*  Example Scores */
-.examplediv {
-  width: calc(50% - 0px); 
-  margin-bottom: 100px;
+.Scores-Div {
+  margin-bottom: 50px;
 }
-.examplemusic {
+.Music-Scores {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-  margin-bottom: 20px;
-  
 }
-
-
 /*  END Example Scores */
 
 /*  AUDIO CONTROLS/SFX */
-
-.audiocontrols3 {
-  width: calc(25% - 0px);
-  margin-bottom: 100px;
+.Audio-Controls {
+  margin-bottom: 50px;
 }
-.sfxdiv {
+
+.Sfx-Div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-  margin-bottom: 20px;
-
 }
+
+.Foley-Div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.Percs-Div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+
 /*  END AUDIO CONTROLS/SFX */
 
-/* KONTAKT */
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
-  width: calc(100% - 60px);
-  padding: 15px;
-  margin-bottom: 20px;
-  display: block;
-  margin: 0 auto 20px;
-  max-width: 400px;
-}
-.labels {
-  color: aqua;
-}
-#contact button {
-  padding: 25px 50px;
-  display: block;
-  margin: 0 auto;
-  font-size: 21px;
-}
 
 
 /* FOOTER */
@@ -861,103 +812,10 @@ footer a {
   margin: 0 10px;
 }
 
-
-
-.social-links {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-.social-link {
-  color: aqua;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.social-link:hover {
-  text-decoration: underline;
-}
-.icons {
-  width: 30px;
-  height: 30px;
-  margin: 20px;
-}
-
-
-
-
-
-
-#sound-effects audio,
-#foley-example audio,
-#scoremusic audio   {
-  width: 60%;
-}
-
-
-#reels h1,
-#music h1,
-#sound-effects h1,
-#foley-example h1,
-#contact h1 {
-  margin-bottom: 20px;
-  padding-bottom: 60px;
- 
-}
-
-nav button:hover {
-  color: wheat; 
-}
-
-
-::-webkit-scrollbar {
-  width: 20px; 
-}
-
-::-webkit-scrollbar-track {
-  background: #1f1f1f; 
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: wheat; 
-  border-radius: 10px; 
-  border: 3px solid #1f1f1f; 
-}
-
-
-.samplepackimg {
-  width: 400px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.audiocontrols3 {
-  width: calc(25% - 0px);
-  margin-bottom: 100px;
-}
-
-.sfxdiv {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.examplediv {
-  width: calc(50% - 0px);
-  margin-bottom: 100px;
-}
-
-.examplemusic {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
+/* CONTACT SECTION */
+#Contact input[type="text"],
+#Contact input[type="email"],
+#Contact textarea {
   width: calc(100% - 60px);
   padding: 15px;
   margin-bottom: 20px;
@@ -970,12 +828,40 @@ nav button:hover {
   color: aqua;
 }
 
-#contact button {
-  padding: 25px 50px;
-  display: block;
-  margin: 0 auto;
-  font-size: 21px;
+
+
+
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 20px; 
 }
+::-webkit-scrollbar-track {
+  background: #1f1f1f; 
+}
+::-webkit-scrollbar-thumb {
+  background-color: wheat; 
+  border-radius: 10px; 
+  border: 3px solid #1f1f1f; 
+}
+/* END OF SCROLL BAR */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
