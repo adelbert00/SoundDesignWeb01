@@ -50,6 +50,9 @@
     </section>
     <!-- End of Sample Packs -->
 
+    
+
+    
     <!-- Reels Section -->
     <section id="reels">
       <h1 class="H1-Head">SOUND DESIGN DEMOS WITH VIDEO</h1>
@@ -79,7 +82,7 @@
     <!-- End of Music Reels -->
 
     <!-- Music Scores Section -->
-    <section id="music">
+      <section id="music">
       <h1 class="H1-Head">MUSIC SCORES</h1>
       <div class="Music-Scores">
         <div class="Scores-Div" v-for="track in musicTracks" :key="track.src">
@@ -154,6 +157,7 @@
     </section>
     <!-- End of Contact -->
 
+
     <!-- Footer -->
     <footer>
       <div class="Social-links">
@@ -170,6 +174,7 @@
       <p>&copy; 2024 Reserved to Wojciech Faber</p>
     </footer>
 <!-- End of Footer -->
+
   
   </div>
 </template>

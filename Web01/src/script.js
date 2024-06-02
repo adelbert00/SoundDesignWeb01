@@ -1,7 +1,8 @@
 import { ref } from 'vue';
 import protImage from './assets/prot.jpg';
 
-export default {
+export default  {
+  
   setup() {
     const imageSrc = protImage;
     const samplePacks = ref([
@@ -109,12 +110,12 @@ export default {
 
     const musicTracks = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: ('assets/Ambient_No_Man_Sky_C_Minor_117BPM.mp3'),
         title: 'Track 1',
         details: 'Details of Track 1'
       },
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: ('@/assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3'),
         title: 'Track 2',
         details: 'Details of Track 2'
       }
@@ -122,13 +123,13 @@ export default {
 
     const soundEffects = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: 'assets/music/Perc_Shot_11.wav',
         type: 'audio/wav',
         title: 'SFX 1',
         details: 'Details of SFX 1'
       },
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: 'assets/music/Perc_Shot_11',
         type: 'audio/wav',
         title: 'SFX 2',
         details: 'Details of SFX 2'
@@ -166,6 +167,9 @@ export default {
       email: '',
       message: ''
     });
+    
+
+    
 
     function scrollToSection(sectionId) {
       const section = document.getElementById(sectionId);

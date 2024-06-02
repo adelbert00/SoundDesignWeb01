@@ -682,12 +682,11 @@ header img {
 .Navbutton {
   color: aqua;
   background-color: transparent;
-  border: none;
   cursor: pointer;
   font-size: 15px;
-  transition: background-color 0.3s;
-  
 }
+
+
 /*  END NAV */
 
 .samplepackimg {
@@ -847,7 +846,29 @@ footer a {
 /* END OF SCROLL BAR */
 
 
+.audio-player {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+}
 
 
 
