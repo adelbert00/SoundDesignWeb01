@@ -820,6 +820,16 @@ footer a {
   text-decoration: none;
   margin: 0 10px;
 }
+.Social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
 
 /* CONTACT SECTION */
 #Contact input[type="text"],
@@ -857,7 +867,36 @@ footer a {
 
 
 
+.audio-player {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+
+
+.audio-player p {
+  margin: 0 0 10px;
+  color: #666;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider {
+  filter: invert(100%);
+}
 
 
 

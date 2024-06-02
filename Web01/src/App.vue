@@ -64,7 +64,6 @@
         </div>
       </div>
     </section>
-    <!-- End of Reels -->
 
     <!-- Music Reels Section -->
     <section>
