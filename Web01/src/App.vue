@@ -21,7 +21,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section>
       <div id="About-Me">
         <h1 class="H1Name">ABOUT ME</h1>
         <p class="PDescribe">
