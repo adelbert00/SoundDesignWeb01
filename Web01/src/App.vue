@@ -6,7 +6,7 @@
       <button class="Navbutton" @click="scrollToSection('about')">About</button>
       <button class="Navbutton" @click="scrollToSection('reels')">Reel</button>
       <button class="Navbutton" @click="scrollToSection('music')">Music</button>
-      <button class="Navbutton" @click="scrollToSection('sound-effects')">SFX</button>
+      <button class="Navbutton" @click="scrollToSection('sfx')">SFX</button>
       <button class="Navbutton" @click="scrollToSection('contact')">Contact</button>
     </nav>
     <!-- End of Nav -->
@@ -24,7 +24,7 @@
     <!-- End of Header -->
 
     <!-- About Section -->
-    <section>
+    <section id="about">
       <div id="About-Me">
         <h1 class="H1-Head">ABOUT ME</h1>
         <p class="PDescribe">
@@ -51,7 +51,7 @@
     <!-- End of Sample Packs -->
 
     <!-- Reels Section -->
-    <section>
+    <section id="reels">
       <h1 class="H1-Head">SOUND DESIGN DEMOS WITH VIDEO</h1>
       <div class="reelsframes">
         <div class="reeldiv" v-for="reel in reels" :key="reel.title">
@@ -79,7 +79,7 @@
     <!-- End of Music Reels -->
 
     <!-- Music Scores Section -->
-    <section>
+    <section id="music">
       <h1 class="H1-Head">MUSIC SCORES</h1>
       <div class="Music-Scores">
         <div class="Scores-Div" v-for="track in musicTracks" :key="track.src">
@@ -94,7 +94,7 @@
     <!-- End of Music Scores -->
 
     <!-- Sound Effects Section -->
-    <section>
+    <section id="sfx">
       <h1 class="H1-Head">SOUND EFFECTS</h1>
       <div class="Sfx-Div">
         <div class="Audio-Controls" v-for="sfx in soundEffects" :key="sfx.src">
@@ -137,7 +137,7 @@
     <!-- End of Percs -->
 
     <!-- Contact Section -->
-    <section id="Contact">
+    <section id="contact">
       <h1 class="H1-Head">CONTACT</h1>
       <form @submit.prevent="handleSubmit">
         <label for="name" class="labels">Imię:</label>
