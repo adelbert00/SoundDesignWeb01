@@ -15,7 +15,7 @@
     <section>
       <header class="HeaderClass">
         <div id="Me">
-          <h1 class="H1Name">Wojciech Faber</h1>
+          <h1 class="H1-Head">Wojciech Faber</h1>
           <p class="PDescribe">Sound designer & Mix/master engineer</p>
         </div>
         <img :src="imageSrc" alt="My Photo">
@@ -37,8 +37,8 @@
     <!-- Sample Packs Section -->
     <section>
       <h1 class="H1-Head">SAMPLE PACKS</h1>
-      <div id="Reelsframes">
-        <div class="Reeldiv" v-for="(pack, index) in samplePacks" :key="index">
+      <div class="Samples">
+        <div class="Samplesdiv" v-for="(pack, index) in samplePacks" :key="index">
           <img :src="pack.imageSrc" class="samplepackimg" :alt="pack.name">
           <p class="Describe1">{{ pack.name }}</p>
           <p class="Describe2">Contains</p>
@@ -50,18 +50,20 @@
     </section>
     <!-- End of Sample Packs -->
 
+    
+
+    
     <!-- Reels Section -->
     <section id="reels">
       <h1 class="H1-Head">SOUND DESIGN DEMOS WITH VIDEO</h1>
-      <div class="reelsframes">
-        <div class="reeldiv" v-for="reel in reels" :key="reel.title">
+      <div class="Reelsframes">
+        <div class="Reeldiv" v-for="reel in reels" :key="reel.title">
           <iframe :width="reel.width" :height="reel.height" :src="reel.src" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <p class="Describe1">{{ reel.title }}</p>
           <p class="Describe2">{{ reel.subtitle }}</p>
         </div>
       </div>
     </section>
-    <!-- End of Reels -->
 
     <!-- Music Reels Section -->
     <section>
@@ -79,7 +81,7 @@
     <!-- End of Music Reels -->
 
     <!-- Music Scores Section -->
-    <section id="music">
+      <section id="music">
       <h1 class="H1-Head">MUSIC SCORES</h1>
       <div class="Music-Scores">
         <div class="Scores-Div" v-for="track in musicTracks" :key="track.src">
@@ -137,7 +139,7 @@
     <!-- End of Percs -->
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="Contact">
       <h1 class="H1-Head">CONTACT</h1>
       <form @submit.prevent="handleSubmit">
         <label for="name" class="labels">Imię:</label>
@@ -153,6 +155,7 @@
       </form>
     </section>
     <!-- End of Contact -->
+
 
     <!-- Footer -->
     <footer>
@@ -170,6 +173,7 @@
       <p>&copy; 2024 Reserved to Wojciech Faber</p>
     </footer>
 <!-- End of Footer -->
+
   
   </div>
 </template>
