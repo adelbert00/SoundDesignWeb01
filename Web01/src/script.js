@@ -109,12 +109,12 @@ export default {
 
     const musicTracks = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3', import.meta.url).href,
         title: 'Track 1',
         details: 'Details of Track 1'
       },
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/ChurchArea_F_Minor_105BPM.mp3', import.meta.url).href,
         title: 'Track 2',
         details: 'Details of Track 2'
       }
@@ -122,13 +122,13 @@ export default {
 
     const soundEffects = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/SFX_JetPack_Sequence.mp3', import.meta.url).href,
         type: 'audio/wav',
         title: 'SFX 1',
         details: 'Details of SFX 1'
       },
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/SFX_UNI_INT_DR_Open.mp3', import.meta.url).href,
         type: 'audio/wav',
         title: 'SFX 2',
         details: 'Details of SFX 2'
@@ -137,12 +137,12 @@ export default {
 
     const foleyExamples = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/Coins_Falling_01.wav', import.meta.url).href,
         type: 'audio/wav',
         title: 'Foley 1'
       },
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/Coins_Hit_04.wav', import.meta.url).href,
         type: 'audio/wav',
         title: 'Foley 2'
       }
@@ -150,12 +150,12 @@ export default {
 
     const percExamples = ref([
       {
-        src: 'assets/music/Ambient_No_Man_Sky_C_Minor_117BPM.mp3',
+        src: new URL('./assets/music/Perc_Shot_10.wav', import.meta.url).href,
         type: 'audio/wav',
         title: 'Perc 1'
       },
       {
-        src: 'path/to/perc2.wav',
+        src: new URL('./assets/music/Perc_Shot_11.wav', import.meta.url).href,
         type: 'audio/wav',
         title: 'Perc 2'
       }
